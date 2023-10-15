@@ -1,12 +1,5 @@
 {
-   "python.linting.pylintEnabled": false,
-   "python.linting.enabled": true,
-   "python.linting.pycodestyleEnabled": true,
-   "python.linting.flake8Enabled": false,
-   "python.terminal.activateEnvironment": false,
-   "python.formatting.autopep8Path": "/home/gitpod/.pyenv/shims/autopep8",
-   "python.linting.flake8Path": "/home/gitpod/.pyenv/shims/flake8",
-   "cornflakes.linter.executablePath": "/home/gitpod/.pyenv/shims/flake8",
+   "python.terminal.activateEnvironment": true,
    "files.exclude": {
       "**/.DS_Store": true,
       "**/.git": true,
@@ -20,8 +13,18 @@
       "**/core.python*": true,
       "**/CVS": true
    },
-   "files.autoSave": "off",
-   "workbench.colorTheme": "Visual Studio Dark",
+   "files.autoSave": "afterDelay",
+   "workbench.colorTheme": "Wildberries Darker",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "editor.wordWrap": "on",
+   "workbench.colorCustomizations": {
+
+      "terminal.foreground": "#37d4a7",
+      "terminalCursor.foreground": "#d80d72",
+   },
+   "editor.formatOnPaste": true,
+   "editor.formatOnSave": true,
+   "python.createEnvironment.trigger": "prompt",
+   "python.terminal.activateEnvInCurrentTerminal": true
 }
