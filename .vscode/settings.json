@@ -16,10 +16,8 @@
    "files.autoSave": "afterDelay",
    "workbench.colorTheme": "Wildberries Darker",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify",
    "editor.wordWrap": "on",
    "workbench.colorCustomizations": {
-
       "terminal.foreground": "#37d4a7",
       "terminalCursor.foreground": "#d80d72",
    },
@@ -30,5 +28,15 @@
    "[python]": {
       "editor.defaultFormatter": "ms-python.black-formatter"
    },
-   "workbench.iconTheme": "vscode-great-icons"
+   "workbench.iconTheme": "vscode-great-icons",
+   "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+   },
+   "files.associations": {
+      "*.html": "jinja-html"
+   },
+   "emmet.showSuggestionsAsSnippets": true,
+   "emmet.includeLanguages": {
+      "jinja-html": "html"
+   },
 }
