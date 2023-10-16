@@ -26,5 +26,9 @@
    "editor.formatOnPaste": true,
    "editor.formatOnSave": true,
    "python.createEnvironment.trigger": "prompt",
-   "python.terminal.activateEnvInCurrentTerminal": true
+   "python.terminal.activateEnvInCurrentTerminal": true,
+   "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter"
+   },
+   "workbench.iconTheme": "vscode-great-icons"
 }
