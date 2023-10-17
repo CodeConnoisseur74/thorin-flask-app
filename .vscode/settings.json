@@ -39,4 +39,5 @@
    "emmet.includeLanguages": {
       "jinja-html": "html"
    },
+   "markdown.extension.print.theme": "dark",
 }
