@@ -16,7 +16,7 @@
    "files.autoSave": "afterDelay",
    "workbench.colorTheme": "Wildberries Darker",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.wordWrap": "on",
+   "editor.wordWrap": "off",
    "workbench.colorCustomizations": {
       "terminal.foreground": "#37d4a7",
       "terminalCursor.foreground": "#d80d72",
@@ -40,4 +40,8 @@
       "jinja-html": "html"
    },
    "markdown.extension.print.theme": "dark",
+   "json.format.enable": false,
+   "json.schemas": [
+
+   ],
 }
