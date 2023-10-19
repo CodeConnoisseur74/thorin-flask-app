@@ -30,7 +30,7 @@
    },
    "workbench.iconTheme": "vscode-great-icons",
    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
+      "editor.defaultFormatter": "vscode.emmet"
    },
    "files.associations": {
       "*.html": "jinja-html"
