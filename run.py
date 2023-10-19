@@ -17,6 +17,7 @@ def index():
 
 @app.route("/about")
 def about():
+
     data = []
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
@@ -30,7 +31,8 @@ def contact():
 
 @app.route("/careers")
 def careers():
-    return render_template("careers.html",  page_title="Careers")
+    return render_template("careers.html", page_title="Careers")
+
 
 
 # '__main__' is default module
