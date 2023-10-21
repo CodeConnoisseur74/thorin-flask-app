@@ -1,9 +1,14 @@
 import os
 import json
 from flask import Flask, render_template, request, flash
+<<<<<<< HEAD
 if os.path.exists("env.py"):
     import env
+=======
+>>>>>>> 067b7b2 (add missing files)
 
+if os.path.exists("env.py"):
+    import env
 
 # variable 'app'
 # first argument of th3e Flask class is 'name'
@@ -40,8 +45,15 @@ def about_member(member_name):
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
     if request.method == "POST":
+<<<<<<< HEAD
         flash("Thanks {}, we have received your message!".format(
             request.form.get("name")))
+=======
+        flash(
+            "Thanks {}, we have received your message!".format(
+                request.form.get("name"))
+        )
+>>>>>>> 067b7b2 (add missing files)
     return render_template("contact.html", page_title="Contact")
 
 
