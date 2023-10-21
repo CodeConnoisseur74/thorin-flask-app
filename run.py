@@ -1,18 +1,13 @@
 import os
 import json
 from flask import Flask, render_template, request, flash
-<<<<<<< HEAD
-if os.path.exists("env.py"):
-    import env
-=======
->>>>>>> 067b7b2 (add missing files)
-
 if os.path.exists("env.py"):
     import env
 
 # variable 'app'
 # first argument of th3e Flask class is 'name'
 app = Flask(__name__)
+app.secret_key = os.environ.get("SECRET_KEY")
 app.secret_key = os.environ.get("SECRET_KEY")
 
 
